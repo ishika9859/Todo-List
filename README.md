@@ -1,7 +1,5 @@
 # Todo-List
 
-## Summary
-
 A dynamic To-Do List web app built using HTML, CSS, and JavaScript with Local Storage support to retain tasks even after page refresh.
 
 ## Overview
