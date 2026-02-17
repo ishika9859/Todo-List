@@ -1,0 +1,57 @@
+body{
+  text-align: center;
+}
+h1{
+  color: rgb(12, 65, 12);
+}
+
+.list{
+  display: grid;
+  grid-template-columns: 250px 200px 80px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  font-size: x-large;
+}
+.add-display{
+  width: 250px;
+  height: 45px;
+  background-color:rgb(192, 244, 90);
+  font-size: larger;
+  border-radius: 5px;
+  border: 0;
+}
+.date-display{
+ width: 200px;
+  height: 45px;
+  font-size:x-large;
+  background-color:rgb(161, 205, 75);
+  border-radius: 5px;
+   border: 0;
+}
+.add-button{
+  width: 100px;
+  height: 48px;
+  background-color:rgb(113, 139, 59);
+  border-radius: 50px;
+  font-size:large;
+  border:0;
+}
+.delete-button{
+  background-color: rgb(225, 78, 105);
+  width: 100px;
+  height: 48px;
+  border-radius: 50px;
+  font-size:large;
+  margin: 5px;
+  border: 0;
+}
+button:active{
+  transform: scale(0.95);
+}
+.delete-button:active{  
+   background-color: rgb(174, 6, 37);
+}
+.add-button:active{  
+   background-color: rgb(61, 78, 28);
+}
